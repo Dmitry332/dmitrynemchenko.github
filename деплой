@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .line-1 {
+    border-bottom: 1px solid rgb(17, 10, 10); /* Параметры линии */
+    }
+    .line-2 {
+    border-bottom: 1px solid rgb(17, 10, 10); /* Параметры линии */
+    }
+    .line-3 {
+    border-bottom: 1px solid rgb(17, 10, 10); /* Параметры линии */}
+    body{
+        background-color: rgb(236, 223, 207);
+    }
+    ul{
+        font-size: 20px; 
+    }
+    li{
+        padding-right: 50px; 
+    }
+
+    .me{
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+    .boy {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */}
+    .cat {
+    float:right; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+   }
+
+   
+    .facts{
+        font-size: 30px;
+    }
+    .cat{
+        float: right;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .hobby{
+        float: left;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 22px;
+    }
+    .text{
+        text-align: center;
+    }
+    .hobby-1 {
+    float:left; /* Выравнивание по левому краю */
+    margin: 17x 17px 17px 0; /* Отступы вокруг картинки */
+    }
+    .hobby-2{
+        padding-top: 100px;
+    }
+</style>
+<body>
+    <div class="line-1">
+        <h1>Дмитрий Алексеевич</h1>
+        <h2>Обо мне</h2>
+            <p class="me"><img src="picture-2.jpg" width="400" height="300" alt="обо мне" class="boy">
+            Меня зовут Дима! Я являюсь учеником курсов MAXIMYM EDUCATION!</p>
+        <p class="facts">Факты обо мне</p>
+        <ul>
+            <li>Я люблю заниматься спортом</li>
+            <li>Обучаюсь основам HTML</li>
+            <li>Интересюсь програмированием</li>
+            <li>У меня есть кошка</li>
+        </ul>
+    </div>
+    <div class="cat">
+        <div class="line-2">
+        <h2 class="pet" align="right">Мой домашний питомец</h2>
+        <img src="picture-3.jpg"  width="400" height="400 " align="right">
+        <div>Эту прекраснуцю кошечку зовут Ася, она появилась у нас в декабре 2020 года. Она очень добрая и умная!
+        Вся наша семья очень любит и бережет Асю!</div>
+        </div>
+    </div>
+    <div class="line-2">
+    </div>
+    <div class="hobby">
+        <h2 class="hobby-2" align="left">Мое любимое хобби</h2>
+        <p><img src="picture-4.jpg"  width="250" height="200" class="hobby-1" align="left" >Баскетбол - мое любимое хобби!</p>
+    </div>
+    <div class="line-3">
+    </div>
+</body>
+</html>
