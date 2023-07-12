@@ -1,2 +1,2 @@
-# dmitrynemchenko.github
+# dmitrynemchenko.github.io
 деплой
